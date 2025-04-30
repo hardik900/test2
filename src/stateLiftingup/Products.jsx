@@ -22,7 +22,7 @@ function Products({senddata}) {
   }
 
   return (
-    <div className='flex flex-wrap justify-center'>{senddata}
+    <div className='flex flex-wrap justify-center'>
       {
         filterData.map((val)=>{
           return (
